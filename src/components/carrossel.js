@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
       intervalId = setInterval(() => {
         index = (index + 1) % items.length;
         mostrarSlide(index);
-      }, 5000);
+      }, 10000);
     }
 
     iniciarCarrossel();

@@ -376,19 +376,43 @@ hr {
   gap: 2rem;
 }
 
+.vitrine-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.vitrine-links a {
+  text-decoration: none;
+  color: #00A8A8;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+  line-height: 1.6;
+}
+
+.vitrine-links a:hover {
+  color: #00FF7F;
+  transition: color 0.3s ease-in-out;
+  scale: 1.1;
+}
+
 .vitrine-item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.vitrine-item img {
+.vitrine-item img,
+.vitrine-item-pages img {
   width: 80%;
   height: auto;
-  margin-bottom: 0.5rem;
+  margin:1rem auto;
 }
 
-.vitrine-item a {
+.vitrine-item a,
+.item-pages-btn a {
   background-color: #6A00F4;
   color: #fff;
   text-decoration: none;
@@ -399,10 +423,18 @@ hr {
   transition: background-color 0.3s ease-in-out, scale 0.3s ease-in-out;
 }
 
-.vitrine-item a:hover {
+.vitrine-item a:hover,
+.item-pages-btn a:hover {
   background-color: #013440;
   transition: background-color 0.3s ease-in-out;
   scale: 1.1;
+}
+
+.item-pages-btn a{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 1.5rem auto;
 }
 
 /* CTA */
@@ -419,11 +451,6 @@ hr {
 .gr-cta p {
   margin-bottom: 1rem;
 }
-
-.gr-cta .obs {
-  margin: 0 auto;
-}
-
 
 /* FAQ */
 .gr-faq {
@@ -599,7 +626,55 @@ hr {
   margin: 0;
 }
 
+.banner-cookie {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position:fixed;
+  bottom: 1rem;
+  background: #013440; 
+  gap: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  z-index: 999; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  left: 50%;
+  transform: translateX(-50%);
 
+}
+
+.banner-cookie p,
+.banner-cookie a {
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+} 
+
+.cookie-btn{
+  background: #00FF7F;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.footer-pages{
+  background: none;
+}
+
+.gr-privacidade a,
+.gr-termos a,
+.footer-direitos a{
+  color: #013440;
+  text-decoration: none;
+}
 
 /* RESPONSIVO tablet e desktop */
 @media (min-width: 768px) {
@@ -686,5 +761,9 @@ hr {
 
   .gr-footer {
     gap: 2rem;
+  }
+
+  .item-pages-btn a{
+    width: 50%;
   }
 }
