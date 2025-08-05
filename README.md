@@ -14,7 +14,7 @@ O objetivo deste site é mostrar de forma objetiva quem sou, o que faço e como 
 - Fonte: Rajdhani, Exo 2, Poppins (Google Fonts)
 
 ## 📷 Captura de Tela
-![Screenshot do site](//src/image/mockupRoddiRamos.png)
+![Screenshot do site](/src/image/mockupRoddiRamos.png)
 
 ## 🌐 Acesse o site online
 [https://roddi-ramos.github.io](https://roddi-ramos.github.io)
