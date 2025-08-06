@@ -282,7 +282,8 @@ hr {
 
 /* SLIDER COMENTÁRIOS */
 .gr-comentarios-slider {
-  display: none; /* Apagar ou comentar essa linha quando tiver comentarios de clientes*/
+  display: none;
+  /* Apagar ou comentar essa linha quando tiver comentarios de clientes*/
   padding: 1.5rem;
   text-align: center;
 }
@@ -408,7 +409,7 @@ hr {
 .vitrine-item-pages img {
   width: 80%;
   height: auto;
-  margin:1rem auto;
+  margin: 1rem auto;
 }
 
 .vitrine-item a,
@@ -430,7 +431,7 @@ hr {
   scale: 1.1;
 }
 
-.item-pages-btn a{
+.item-pages-btn a {
   display: flex;
   justify-content: center;
   width: 80%;
@@ -458,7 +459,7 @@ hr {
 }
 
 .gr-faq h1,
-.gr-faq .faq-text {
+.faq-text {
   text-align: center;
 }
 
@@ -540,7 +541,7 @@ hr {
   border-radius: 0;
 }
 
-.footer-logo{
+.footer-logo {
   margin-left: 1rem;
 }
 
@@ -633,16 +634,16 @@ hr {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  position:fixed;
+  position: fixed;
   bottom: 1rem;
-  background: #013440; 
+  background: #013440;
   gap: 0.5rem;
   padding: 0.5rem;
   text-align: center;
   font-size: 0.75rem;
   border-radius: 0.5rem;
-  z-index: 999; 
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   left: 50%;
   transform: translateX(-50%);
 
@@ -654,9 +655,9 @@ hr {
   text-align: center;
   text-decoration: none;
   color: #fff;
-} 
+}
 
-.cookie-btn{
+.cookie-btn {
   background: #00FF7F;
   color: white;
   border: none;
@@ -666,13 +667,13 @@ hr {
   font-size: 13px;
 }
 
-.footer-pages{
+.footer-pages {
   background: none;
 }
 
 .gr-privacidade a,
 .gr-termos a,
-.footer-direitos a{
+.footer-direitos a {
   color: #013440;
   text-decoration: none;
 }
@@ -764,7 +765,7 @@ hr {
     gap: 2rem;
   }
 
-  .item-pages-btn a{
+  .item-pages-btn a {
     width: 50%;
   }
 }
