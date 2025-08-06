@@ -457,7 +457,8 @@ hr {
   padding: 1rem;
 }
 
-.gr-faq h1 {
+.gr-faq h1,
+.gr-faq .faq-text {
   text-align: center;
 }
 
