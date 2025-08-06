@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://roddi-ramos.github.io/sitemap.xml
