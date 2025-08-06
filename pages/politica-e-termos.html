@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bloqueia clickjacking -->
+    <meta http-equiv="X-Frame-Options" content="deny">
+
+    <!-- Força HTTPS -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <!-- Evita detecção automática de tipos MIME (XSS) -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
     <meta name="robots" content="noindex, follow" />
     <meta name="description"
         content="Política de Privacidade e Termos de Uso do site Roddi Ramos | Dev. Saiba como coletamos, usamos e protegemos suas informações pessoais.">
 
-    <title>Politica de Privacidade & Termos de Uso- Roddi Ramos | Dev</title>
+    <title>Política de Privacidade e Termos | Roddi Ramos</title>
     <link rel="icon" type="image/png" href="/icons/favicon.svg" />
 
     <link rel="stylesheet" href="/src/style/style.css">
@@ -147,19 +156,23 @@
                 <h3>Redes Sociais</h3>
                 <div class="links-img">
 
-                    <a href="https://instagram.com/roddi_ramos/" target="_blank" class="redes-sociais">
+                    <a href="https://instagram.com/roddi_ramos/" target="_blank" rel="noopener noreferrer"
+                        class="redes-sociais">
                         <img class="img-default" src="/src/image/instagram.svg" alt="Logo Instagram">
                         <img class="img-hover" src="/src/image/instagram-hover.svg" alt="Instagram Hover"></a>
 
-                    <a href="https://www.tiktok.com/@roddi_ramos" target="_blank" class="redes-sociais">
+                    <a href="https://www.tiktok.com/@roddi_ramos" target="_blank" rel="noopener noreferrer"
+                        class="redes-sociais">
                         <img class="img-default" src="/src/image/tiktok.svg" alt="Logo TikTok">
                         <img class="img-hover" src="/src/image/tiktok-hover.svg" alt="TikTok Hover"></a>
 
-                    <a href="https://www.linkedin.com/in/rodivan-ramos/" target="_blank" class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/roddi-ramos/" target="_blank" rel="noopener noreferrer"
+                        class="redes-sociais">
                         <img class="img-default" src="/src/image/linkedin.svg" alt="Logo LinkedIn">
                         <img class="img-hover" src="/src/image/linkedin-hover.svg" alt="LinkedIn Hover"></a>
 
-                    <a href="https://github.com/roddi-ramos/" target="_blank" class="redes-sociais">
+                    <a href="https://github.com/roddi-ramos/" target="_blank" rel="noopener noreferrer"
+                        class="redes-sociais">
                         <img class="img-default" src="/src/image/github.svg" alt="Logo GitHub">
                         <img class="img-hover" src="/src/image/github-hover.svg" alt="GitHub Hover"></a>
                 </div>

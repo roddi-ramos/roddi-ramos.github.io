@@ -6,6 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="Vxt7YLNElnWMJEjsuj2xk5upuHZbMDB66J_5MjQckMo" />
+  <link rel="canonical" href="https://roddi-ramos.github.io">
+
+  <!-- Bloqueia clickjacking -->
+  <meta http-equiv="X-Frame-Options" content="deny">
+
+  <!-- Força HTTPS -->
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <!-- Evita detecção automática de tipos MIME (XSS) -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -13,20 +23,49 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="theme-color" content="#FAFAFA" />
 
-  <meta property="og:title" content="Roddi Ramos - Desenvolvedor Web" />
+  <!-- Redes da Meta -->
+  <meta property="og:title" content="Roddi Ramos | Desenvolvedor Web Freelancer - Soluções Personalizadas" />
   <meta property="og:description"
-    content="Desenvolvedor Web focado em criar experiências digitais criativas e funcionais. Confira meus projetos e entre em contato!" />
-  <meta property="og:image" content="https://github.com/roddi-ramos/roddi-ramos.github.io/raw/main/src/image/mockupRoddiRamos.png" />
+    content="Roddi Ramos | Desenvolvedor Web Freelancer. Desenvolvo sites rápidos, responsivos e acessíveis com HTML, CSS e JavaScript. Soluções sob medida para seu projeto ou negócio." />
+  <meta property="og:image"
+    content="https://github.com/roddi-ramos/roddi-ramos.github.io/raw/main/src/image/mockupRoddiRamos.png" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.ramos.com.br" />
+  <meta property="og:url" content="https://roddi-ramos.github.io" />
+
+  <!-- X - Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@roddi_ramos">
+  <meta name="twitter:creator" content="@roddi_ramos">
+  <meta name="twitter:title" content="Roddi Ramos | Desenvolvedor Web Freelancer - Soluções Personalizadas">
+  <meta name="twitter:description"
+    content="Roddi Ramos | Desenvolvedor Web Freelancer. Desenvolvo sites rápidos, responsivos e acessíveis com HTML, CSS e JavaScript. Soluções sob medida para seu projeto ou negócio.">
+  <meta name="twitter:image"
+    content="https://github.com/roddi-ramos/roddi-ramos.github.io/raw/main/src/image/mockupRoddiRamos.png">
+  <meta name="twitter:url" content="https://roddi-ramos.github.io">
 
   <meta name="robots" content="index, follow" />
   <meta name="description"
-    content="Desenvolvedor Web especializado em criar experiências digitais inovadoras e funcionais. Explore meus projetos web criativos e entre em contato para transformar sua ideia em realidade!" />
-  <meta name="keywords"
-    content="desenvolvedor web, desenvolvimento web, criação de sites, projetos web, experiências digitais, HTML, CSS, JavaScript, Bootstrap, Java" />
+    content="Roddi Ramos | Desenvolvedor Web Freelancer. Desenvolvo sites rápidos, responsivos e acessíveis com HTML, CSS e JavaScript. Soluções sob medida para seu projeto ou negócio.">
 
-  <title>Roddi Ramos | Dev</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rodivan Ramos",
+    "alternateName": "Roddi Ramos",
+    "jobTitle": "Desenvolvedor Web Freelancer",
+    "skills": ["HTML", "CSS", "JavaScript", "React"], <!-- Mudei para array -->
+    "url": "https://roddi-ramos.github.io",
+    "sameAs": [
+      "https://instagram.com/roddi_ramos/"
+      "https://www.tiktok.com/@roddi_ramos"
+      "https://linkedin.com/in/roddi-ramos",
+      "https://github.com/roddi-ramos"
+    ]
+  }
+  </script>
+
+  <title>Roddi Ramos | Desenvolvedor Web Freelancer - Soluções Personalizadas</title>
   <link rel="shortcut icon" href="./icons/favicon.svg" type="image/x-icon" />
 
   <!--<link rel="manifest" href="/manifest.json" /> -->
@@ -83,7 +122,7 @@
         <br><br> <strong>Vamos conversar sobre como posso transformar seus desafios em oportunidades?</strong>
       </p>
 
-      <a href="https://wa.me/5541999160389" class="btn-whats" target="_blank">
+      <a href="https://wa.me/5541999160389" class="btn-whats" target="_blank" rel="noopener noreferrer">
         <img src="/src/image/whatsApp.svg" alt="Icone do WhatsApp">Vamos conversar?</a>
     </div>
   </section>
@@ -242,7 +281,7 @@
     <!-- projeto-2 -->
     <div class="vitrine-item">
       <h2>Academia 41</h2>
-      
+
       <img src="/src/image/mockupAcademia.svg" alt="Pagina de Vendas">
       <a href="/pages/demo-academia41.html">Clique e conheça</a>
     </div>
@@ -267,7 +306,7 @@
       <strong>Me chama no Whats e a gente bate um papo rápido, sem compromisso.</strong>
       <br>Quem sabe esse é o começo de algo incrível?
     </p>
-    <a href="https://wa.me/5541999160389" class="btn-whats" target="_blank">
+    <a href="https://wa.me/5541999160389" class="btn-whats" target="_blank" rel="noopener noreferrer">
       <img src="/src/image/whatsApp.svg" alt="Icone do WhatsApp"> Bora tirar do papel!</a>
   </section>
 
@@ -499,7 +538,7 @@
   <section class="gr-cta"> <!-- cta final -->
     <h1>Não achou a resposta que queria?</h1>
     <p>Relaxa, me chama no Whats e eu te explico tudo rapidinho. Às vezes, a melhor resposta é uma conversa direta.</p>
-    <a href="https://wa.me/5541999160389" class="btn-whats" target="_blank">
+    <a href="https://wa.me/5541999160389" class="btn-whats" target="_blank" rel="noopener noreferrer">
       <img src="/src/image/whatsApp.svg" alt="">Bora tirar do papel</a>
   </section>
 
@@ -510,19 +549,20 @@
         <h3>Redes Sociais</h3>
         <div class="links-img">
 
-          <a href="https://instagram.com/roddi_ramos/" target="_blank" class="redes-sociais">
+          <a href="https://instagram.com/roddi_ramos/" target="_blank" rel="noopener noreferrer" class="redes-sociais">
             <img class="img-default" src="/src/image/instagram.svg" alt="Logo Instagram">
             <img class="img-hover" src="/src/image/instagram-hover.svg" alt="Instagram Hover"></a>
 
-          <a href="https://www.tiktok.com/@roddi_ramos" target="_blank" class="redes-sociais">
+          <a href="https://www.tiktok.com/@roddi_ramos" target="_blank" rel="noopener noreferrer" class="redes-sociais">
             <img class="img-default" src="/src/image/tiktok.svg" alt="Logo TikTok">
             <img class="img-hover" src="/src/image/tiktok-hover.svg" alt="TikTok Hover"></a>
 
-          <a href="https://www.linkedin.com/in/rodivan-ramos/" target="_blank" class="redes-sociais">
+          <a href="https://www.linkedin.com/in/roddi-ramos/" target="_blank" rel="noopener noreferrer"
+            class="redes-sociais">
             <img class="img-default" src="/src/image/linkedin.svg" alt="Logo LinkedIn">
             <img class="img-hover" src="/src/image/linkedin-hover.svg" alt="LinkedIn Hover"></a>
 
-          <a href="https://github.com/roddi-ramos/" target="_blank" class="redes-sociais">
+          <a href="https://github.com/roddi-ramos/" target="_blank" rel="noopener noreferrer" class="redes-sociais">
             <img class="img-default" src="/src/image/github.svg" alt="Logo GitHub">
             <img class="img-hover" src="/src/image/github-hover.svg" alt="GitHub Hover"></a>
         </div>
