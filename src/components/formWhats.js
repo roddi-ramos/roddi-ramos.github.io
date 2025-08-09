@@ -8,8 +8,8 @@ document.getElementById('formContato').addEventListener('submit', function (even
 
     const texto = `Olá! Sou *${nome}*. \nMeu WhatsApp é *${whatsapp}*.\nSou responsável pela empresa *${empresa}*. \n${mensagem}`;
 
-    const numeroDestino = '5541999160389'; // Ex: 5599999999999
-    const url = `https://wa.me/5541999160389?text=${encodeURIComponent(texto)}`;
+    const numeroDestino = '5541997243392'; // Ex: 5599999999999
+    const url = `https://wa.me/5541997243392?text=${encodeURIComponent(texto)}`;
 
     window.open(url, '_blank');
 
